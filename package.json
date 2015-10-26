@@ -1,0 +1,56 @@
+{
+  "name": "foodopia",
+  "description": "Foodopia",
+  "version": "1.0.0",
+  "private": true,
+
+  "engines": {
+    "node": "4.x.x",
+    "npm": "2.x.x"
+  },
+
+  "scripts": {
+    "start": "coffee start.coffee",
+    "test": "mocha && istanbul report text-summary lcov"
+  },
+
+  "main": "start.coffee",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Appido/foodopia.git"
+  },
+
+  "license" : "UNLICENSED",
+
+  "dependencies": {
+    "async": "1.4.x",
+    "moment": "2.10.x",
+    "coffee-script": "1.10.x",
+    "config": "1.16.x",
+    "js-yaml": "3.4.x",
+    "validator": "4.2.x",
+    "express": "4.13.x",
+    "uuid": "2.0.x",
+    "winston": "1.1.x",
+    "method-override": "2.3.x",
+    "body-parser": "1.14.x",
+    "mongoose": "4.2.x",
+    "randomstring": "1.1.x",
+    "request": "2.65.x",
+    "newrelic": "1.22.x"
+  },
+
+  "devDependencies": {
+    "supertest": "1.1.x",
+    "mocha": "2.3.x",
+    "should": "7.1.x",
+    "sinon": "1.17.x",
+    "proxyquire": "1.7.x",
+    "growl": "1.8.x",
+    "istanbul": "0.4.x",
+    "mocha-lcov-reporter": "0.0.x",
+    "coffee-coverage": "0.6.x"
+  }
+
+}
